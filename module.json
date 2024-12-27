@@ -9,19 +9,19 @@
     }
   ],
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
   },
   "description": "Vadanx's Mobile Controller is a Foundry VTT module for using mobile devices as controllers.",
-  "download": "#{DOWNLOAD}#",
+  "download": "https://github.com/vadanx/foundryvtt-mobile-controller/releases/download/v0.0.1/module.zip",
   "esmodules": [
     "mobile-controller.js"
   ],
   "id": "vadanx-mobile-controller",
   "library": "false",
   "license": "LICENSE",
-  "manifest": "https://raw.githubusercontent.com/Vaengence/foundryvtt-mobile-controller/refs/heads/main/module.json",
+  "manifest": "#{MANIFEST}#",
   "readme": "README.md",
   "relationships": {
     "requires": [
