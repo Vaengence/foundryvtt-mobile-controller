@@ -21,7 +21,7 @@
         }
     ],
     "url": "https://github.com/Vaengence/foundryvtt-mobile-controller",
-    "manifest": "https://raw.githubusercontent.com/Vaengence/foundryvtt-mobile-controller/main/module.json",
+    "manifest": "https://raw.githubusercontent.com/Vaengence/foundryvtt-mobile-controller/refs/heads/main/module.json",
     "download": "https://github.com/Vaengence/foundryvtt-mobile-controller/archive/main.zip",
     "license": "MIT",
     "bugs": "https://github.com/Vaengence/foundryvtt-mobile-controller/issues",
