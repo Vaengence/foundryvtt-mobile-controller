@@ -1,38 +1,29 @@
 {
-  "authors": [
-    {
-      "name": "Vadanx",
-      "email": "andrew@vadanx.dev",
-      "url": "https://vadanx.dev",
-      "discord": "vadanx",
-      "github": "vadanx"
-    }
-  ],
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "12"
-  },
-  "description": "Vadanx's Mobile Controller is a Foundry VTT module for using mobile devices as controllers.",
-  "download": "#{DOWNLOAD}#",
-  "esmodules": [
-    "mobile-controller.js"
-  ],
-  "id": "vadanx-mobile-controller",
-  "library": "false",
-  "license": "LICENSE",
-  "manifest": "#{MANIFEST}#",
-  "readme": "README.md",
-  "relationships": {
-    "requires": [
-      {
-        "id": "vadanx-common-library",
-        "type": "module"
-      }
-    ]
-  },
-  "socket": true,
-  "title": "Vadanx's Mobile Controller",
-  "url": "#{URL}#",
-  "version": "#{VERSION}#"
+    "name": "foundryvtt-mobile-controller",
+    "title": "FoundryVTT Mobile Controller",
+    "description": "A module to control FoundryVTT via a mobile-friendly interface.",
+    "version": "1.0.0",
+    "author": "Vaengence",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12",
+        "maximum": "12"
+    },
+    "scripts": ["scripts/main.js"],
+    "esmodules": [],
+    "styles": ["styles/style.css"],
+    "packs": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    },
+    "url": "https://github.com/Vaengence/foundryvtt-mobile-controller",
+    "manifest": "https://raw.githubusercontent.com/Vaengence/foundryvtt-mobile-controller/main/module.json",
+    "download": "https://github.com/Vaengence/foundryvtt-mobile-controller/archive/main.zip",
+    "license": "MIT",
+    "bugs": "https://github.com/Vaengence/foundryvtt-mobile-controller/issues",
+    "readme": "https://github.com/Vaengence/foundryvtt-mobile-controller#readme"
 }
