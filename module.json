@@ -9,8 +9,8 @@
     }
   ],
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
+    "minimum": "12",
+    "verified": "12",
     "maximum": "12"
   },
   "description": "Vadanx's Mobile Controller is a Foundry VTT module for using mobile devices as controllers.",
